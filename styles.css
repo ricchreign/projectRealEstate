@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: auto;
+    background-color: #e8e8e8;
+}
+
+.genLayout{
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav{
+    padding-block: 1rem;
+}
+
+.innerNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.beru{
+    color: #0a2049;
+    padding-top: 8px;
+}
+
+.navItems{
+    display: flex;
+    gap: 3rem;
+    width: 450px;
+    color: black;
+    text-transform: capitalize;
+    padding-top: 8px;
+}
+
+.navItems > a{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.navSigns > span{
+    padding-right: 20px;
+}
+
+.btn{
+    background-color: #3d5bee;
+    padding: .6rem 1.8rem;
+    border: none;
+    text-transform: capitalize;
+    color: white; 
+}
+
+.banner{
+    display: flex;
+    height: 80vh;
+    background-color: #f6f6f6;
+}
+
+.bannerContent{
+    width: 35%;
+    background-color: #f6f6f6;
+}
+
+.bannerContent > h2{
+    margin-block: 40px;
+    padding-top: 30px;
+    font-size: 2.5rem;
+    margin-left: 40px;
+}
+
+.bannerContent > p{
+    margin-left: 40px;
+}
+
+.imgBanner{
+    object-fit: cover;
+    width: 4%;
+}
+
+.addressInfo{
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    background-color: #fff;
+}
+
+.infoTab{
+    width: 500px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.infoTab > h6{
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.infoTab >h6:first-child{
+    background-color: #fff;
+    height: 40px;
+    color: blue;
+}
+
+.inf >h6:last-child{
+    background-color: transparent;
+}
+
+.tabCard{
+    padding-block: 20px;
+    color: #434343;
+}
+
+.tabCard >h4{
+    padding-bottom: 10px;
+}
+
+.bottomInfoTabs{
+    display: flex;
+    gap: 160px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+
+.mostSearch{
+    text-align: center;
+}
+
+.mostSearch >span{
+    color: #405be9;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 400;
+}
+.very{
+    text-align: center;
+    width: 50%;
+    padding-left: 25%;
+    color: #898989;
+}
+
+
+.imgWrapper{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.house1 >img{
+    border-radius: 20px;
+}
+.houseWord{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    
+}
+
+.houseWord >span{
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    font-size: 28px;
+    
+}
+
+.logo1{
+    display: flex;
+    margin-block: 5px;
+    margin: auto;
+    align-items: end;
+    gap: 10px;
+    padding-block: 8px;
+}
+
+.logo2{
+    display: flex;
+    margin: auto;
+    align-items: end;
+    gap: 5px;
+}
+
+.houseWord{
+    padding-block: 3px;
+}
+
+//* styling for viewhouse**//
+
+.viewHouse{
+    width: 40%;
+    gap: 30px; 
+}
+
+.viewHouseWrapper{
+    gap: 100px;
+    display: flex;
+    margin-top: 70px;
+}
+
+.viewHouseImg > img{
+    border-radius: 10px;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 10px;
+    height: 60px;
+    margin-left: 230px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    width: 200px;
+    gap: 10px;
+    border-radius: 10px;
+    line-height: 20px;
+    background-color: white;
+}
+
+.viewWord > h4{
+    color: #172f5a;
+}
+.viewWord > h5{
+    color: #7e90db;
+}
+
+.arrow{
+    position: relative;
+    font-size: 20px;
+    right: 1rem;
+    top: 10px;
+    color: #5970d3;
+}
+
+.secondImage {
+    position: absolute;
+    margin-top: 750px; 
+    border: 6px solid white;
+}
+
+.secondImage > img{
+    border-radius: 10px;
+}
+
+.luxury{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    width: 260px;
+    height: 100px;
+    border-radius: 10px;
+    top: -45px;
+    line-height: 35px;
+    background-color: white;
+    padding-left: 8px;
+}
+
+.luxury > h3{
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #0b1f46;
+}
+
+.luxury > .map > h4{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 900;
+    color: #a8a8a8;
+}
+
+.luxury > h5{
+    text-transform: capitalize;
+    color: blue;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.map{
+    display: flex;
+    gap: 20px;
+    color: #4260e5;
+    font-size: 20px;
+}
+
+.arrow2{
+    position: absolute;
+    left: 70px;
+    top: 66px;
+    font-size: 20px;
+    color: #4260e5;
+}
+
+.withUs{
+    width: 60%;
+}
+
+.bigWord{
+    color: #042046;
+    margin-block: 10px;
+    width: 60%;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.number{
+    color: #3b5cf0;
+    font-size: 25px;
+    padding-block: 10px;
+}
+
+.words{
+    width:60%;
+    color: #898989;
+}
+
+.bat{
+  height: 40px;
+  width: 30vh;
+  margin-block: 20px;
+  background-color: #3b5cf0;
+  color: #ffffff;
+  border: none;
+}
+
+
+
+
+/*styling for popularWrapper*/
+
+.popularWrapper{
+  margin-block: 3rem;
+  position: relative;
+}
+.imgContainer > img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.arrowR{
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    padding-left: 950px;
+    font-size: 30px;
+    color: blue;
+}
+
+.leftArrow{
+    color: #a1b0ef;
+}
+
+.popular{
+   color: #051d47;
+   font-size: 40px;
+   font-weight: 500;
+   text-transform: capitalize;
+   position: relative;
+   display: flex;
+   gap: 50px;
+}
+
+.imgBox{
+    padding-top: 30px;
+    display: grid;
+    height: auto;
+    width: 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.boxWrapper {
+    border: 0.5px solid rgb(250, 248, 248);
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.imgWriting{
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mini >span{
+    color: #3a5df1;
+    padding-top: 55px;
+    font-size: 20px;
+}
+
+.mini > h3{
+    color: #03214b;
+    padding-block: 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+    
+}
+
+.location{
+    display: flex;
+    gap: 30px;
+    color: #7f7f7f;
+    padding-block: 5px;
+}
+
+.bedroom{
+    display: flex;
+    gap: 60px;
+    color: #7f7f7f;
+}
+
+section5
+
+body{
+    background-color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+}
+.subscribeSection{
+    background-color: #071f49;
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin-block: 50px;
+    position: relative;
+    height: 150px;
+}
+
+.subscribeSection >h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.emailForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    background-color: #1e365c;
+    width: 450px;
+    position: absolute;
+    margin-left: 180px;
+    padding-block: 5px;
+    border: none;
+    border-radius: 7px;
+}
+
+.emailForm >input [type="email"]{
+    padding: 14px 18px;
+    font-size: 16px;
+    background-color: #132d58;
+    width: 50px; 
+    border: none;
+}
+
+.emailForm input::placeholder{
+   background-color: #1e365c ;
+}
+
+.emailForm > input{
+    border: none;
+}
+
+.emailForm > button{
+    padding: 14px 24px;
+    background-color: #3e5def;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 160px;
+    border: none;
+    border-radius: 7px;
+}
+
+.emailForm >button:hover{
+    background-color: #3e51d6;
+}
+
+
+/*sec6*/
+
+.berumahWrapper{
+    display: flex;
+    gap: 80px;
+    padding-left: 120px;
+}
+
+.berumah >h2{
+    text-transform: capitalize;
+    color: #051f46;
+    text-transform: uppercase;
+}
+
+.beruWords{
+    padding-top: 20px;
+    color: #919191;
+}
+
+.headings{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.support > h4{
+    padding-bottom: 20px;
+    color: #6a89ff;
+}
+
+.legal > h4{
+    padding-bottom: 20px;
+    color: #6a89ff;
+}
+
+.social >h4{
+    padding-bottom: 20px;
+    color: #6a89ff;
+}
+
+.support > h6{
+    color: #919191;
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.legal > h6{
+    color: #919191;
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.social > h6{
+    color: #919191;
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+
+
+
