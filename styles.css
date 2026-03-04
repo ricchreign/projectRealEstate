@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.hamburger, #toggle{
+    display: none;
+}
+
 header{
     height: auto;
     background-color: #e8e8e8;
@@ -20,6 +24,7 @@ nav{
 .innerNav{
     display: flex;
     justify-content: space-between;
+    /* position: fixed; */
 }
 
 .beru{
@@ -69,16 +74,22 @@ nav{
     margin-block: 40px;
     padding-top: 30px;
     font-size: 2.5rem;
+    width: 320px;
     margin-left: 40px;
 }
 
 .bannerContent > p{
     margin-left: 40px;
+    width: 370px;
+    font-size: 700;
+    /* position: relative; */
+    position: absolute;
 }
 
 .imgBanner{
     object-fit: cover;
     width: 4%;
+    position: relative;
 }
 
 .addressInfo{
@@ -370,10 +381,10 @@ nav{
 
 .imgBox{
     padding-top: 30px;
-    display: grid;
+    display: flex;
     height: auto;
     width: 300px;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 10px;
 }
 
@@ -552,6 +563,170 @@ body{
     font-weight: 900;
     font-size: 15px;
 }
+
+
+@media (min-width: 260px) and (max-width: 460px){
+    .navSigns{
+        /* justify-content: end; */
+        /* justify-content: space-between; */
+        display: flex;
+        /* gap: 20px; */
+        padding-top: 20px;
+        
+    }
+    .navSigns > span{
+        justify-content: end;
+        display: flex;
+        align-items: center;
+        padding-left: 210px;
+    }
+    /* .hamburger{
+        display: block; 
+        margin-right: 1rem;
+        font-size: 1.6rem;
+        color: #178255;
+        font-weight: 800;
+    }
+    .navRight{
+        display: none;
+        position: absolute;
+        width: 85%;
+        padding: 1.4rem 1rem;
+        top: 3.5rem;
+        right: 3px;
+        z-index: 1;
+        background-color: green;
+        opacity: 0.8;
+        border-bottom: 4px solid #fff;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    }
+    
+    #toggle:checked + .navRight{
+        display: block;
+        transform: none;
+    } */
+
+    .innerNav{
+        display: grid;
+        /* position: fixed; */
+    }
+  .banner{
+    display: grid;
+    height: 85vh;
+  }
+  .bannerContent > h2{
+    width: 350px;
+    padding: 10px;
+    padding-left: 0;
+    margin-left: 5px;
+    padding-top: 0;
+  }
+  .bannerContent > p{
+    width: 300px;
+    font-size: large;
+  }
+  .imgBanner > img{
+    width: 390px;
+    object-fit: contain;
+  }
+  .infoTab{
+    gap: 7rem;
+  }
+  .bottomInfoTabs{
+    padding-left: 5px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,100px);
+
+  }
+  .tabCard {
+    padding-block: 0;
+  }
+  .mostSearch > span{
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .very{
+    padding: 5px;
+    padding-left: 0;
+    width: 99%;
+  }
+  
+  .imgWrapper{
+    padding: 0px;
+    display: grid;
+  }
+  .house1 > img{
+    padding-left: 50px;
+  }
+  .viewHouseWrapper {
+    display: grid;
+    width: 1000px;
+  }
+  .viewHouse{
+    width: 5%;
+  }
+  .withUs{
+  padding-left: 5px;
+  }
+  .bigWord{
+    margin-block: 0;
+  }
+  .arrowR{
+    display: flexbox;
+  }
+  .popular{
+    /* width: 40px; */
+    font-size: 30px;
+  }
+  .arrowR{
+    padding-left: 350px;
+  }
+  .imgBox{
+    display: grid;
+    padding-left: 30px;
+  }
+.subscribeSection{
+    max-width: 340px;
+}
+
+  .emailForm{
+    margin-left: 0;
+    width: 340px;
+  }
+  .emailForm >input [type="email"]{
+    width: 10px;
+  }
+  .emailForm > input{
+    /* width: 150px; */
+  }
+
+
+  .emailForm > button{
+    margin-left: 50px;
+    
+  }
+  .berumah{
+    padding: 5px;
+  }
+
+  .berumahWrapper{
+    padding-left: 0;
+    display: grid;
+  }
+  .beruWords{
+    width: 600px;
+    padding-top: 0;
+  }
+  .headings{
+    padding: 10px;
+    gap: 60px;
+  }
+
+
+  
+}  
 
 
 
